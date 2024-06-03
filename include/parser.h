@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PARSER_H
+#define PARSER_H
 
 #include <stdbool.h>
 #include "lexer.h"
@@ -33,3 +34,4 @@ bool exprPostfix();
 bool exprPostfixPrim();
 bool exprPrimary();
 void parse(Token *tokens);
+#endif

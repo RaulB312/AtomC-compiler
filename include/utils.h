@@ -1,12 +1,5 @@
-//
-// Created by adel_ on 3/2/2024.
-//
-
-#ifndef ATOMC_COPY_UTILS_H
-#define ATOMC_COPY_UTILS_H
-/// requires at least C11
-/// in Visual Studio it is set from Properties -> C/C++ -> C Language Standard
-#pragma once
+#ifndef UTILS_H
+#define UTILS_H
 
 #include <stddef.h>
 #include <stdnoreturn.h>
@@ -24,4 +17,4 @@ void *safeAlloc(size_t nBytes);
 char *loadFile(const char *fileName);
 
 
-#endif //ATOMC_COPY_UTILS_H
+#endif

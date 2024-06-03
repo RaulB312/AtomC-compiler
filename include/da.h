@@ -1,4 +1,5 @@
-#pragma once
+#ifndef DA_H
+#define DA_H
 
 
 // the domain analysis
@@ -98,4 +99,4 @@ Symbol *addExtFn(const char *name,void(*extFnPtr)(),Type ret);
 // it doesn't verify for parameter redefinition
 // returns the added parameter
 Symbol *addFnParam(Symbol *fn,const char *name,Type type);
-
+#endif

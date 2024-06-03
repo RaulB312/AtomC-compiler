@@ -200,4 +200,3 @@ Symbol *addFnParam(Symbol *fn,const char *name,Type type){
     addSymbolToList(&fn->fn.params,dupSymbol(param));
     return param;
 }
-
